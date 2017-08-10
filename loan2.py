@@ -1,8 +1,6 @@
 payment = float(input("Please enter the monthly payment: "))
 principal = float(input("Please enter the current principal: "))
 interest_rate = float(input("Please enter the interest rate, in decimal form: "))
-year = 365.25
-month = 30
 timeframe = 0
 temp_sum = 0
 
