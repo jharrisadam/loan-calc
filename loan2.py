@@ -8,5 +8,5 @@ while principal > 0:
     timeframe += 1
     temp_fee = ((principal * int_rate)/365.25)*30
     principal = (principal + temp_fee) - payment
-
-return timeframe
+    # print(format(principal, '.2f'))
+print(timeframe)
